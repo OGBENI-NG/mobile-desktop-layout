@@ -1,0 +1,424 @@
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo {
+    width: 36px;
+}
+
+
+header , 
+.discription {
+    display: flex;
+    gap: 10px;
+}
+
+header {
+    position: relative;
+    align-items: center;
+    background: #ffffff;
+    padding: 1em 1.5em;
+    border-bottom: .1px solid #00509d;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #00509d;
+    text-shadow:1px 1px 2px #000000
+}
+
+.subtitle span {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: #0096c7;
+
+}
+
+.fa-bars, 
+.fa-circle-chevron-left {
+    font-size: 2rem;
+    color: #00b4d8;
+}
+
+.fa-circle-chevron-left {
+    color: #5d6074;
+}
+
+.fa-bars:hover {
+    color: #000814;
+}
+
+.fa-circle-chevron-left:hover {
+    color: #ef233c;
+}
+
+.menu {
+    margin: 0 0 0 auto;
+    
+}
+
+.close-menu {
+    position: absolute;
+    top: 2.0625em;
+    right: 1.375em;
+    background: #ffffff;
+
+}
+
+.nav-container {
+    z-index: 1;
+    padding: 2em 0;
+    background: #ffffff;
+    -webkit-box-shadow:0px 2px 8px #d5f2e3;
+    -moz-box-shadow:0px 1px 8px #73ba9b;
+    box-shadow:0px 2px 8px #00509d;
+    border-bottom-left-radius: 20px 15px;
+    border-bottom-right-radius: 20px 15px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    margin-top: 1em;
+    text-align: center;
+    
+}
+
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 0px 1px #000;
+    color: #000814;
+}
+
+
+
+i,
+li,
+.btn,
+.contacts,
+button,
+.close-modal, 
+.logo, 
+.subtitle {
+    cursor: pointer;
+}
+
+li a:hover,
+li a:focus {
+    color: #0096c7;
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    font-size: 2.5rem;
+    padding: 0 .6789em;
+    font-weight: 400;
+    color: #000814;
+}
+
+.hotel-pics {
+    width: 100%;
+}
+
+.image-containner {
+    position: relative;
+}
+
+.btn {
+    padding: .5em 1em;
+    background: #0096c7;
+    color: #d5f2e3;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    border-bottom-right-radius: 5px;
+    text-shadow: 1px 1px 2px #000814;
+}
+
+.discription {
+    justify-content: center;
+    padding: 1em 1.5em;
+    
+}
+
+.discription p {
+    color: #000814;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+    
+}
+
+button {
+    margin: 0 0 0 auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: .5em 1em;
+    align-self: center;
+    border: none;
+    background: #820263;
+    color: #d5f2e3;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+}
+
+.close-modal-btn,
+.contacts, 
+.btn-con {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.close-modal-btn, 
+.contacts {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.close-modal-btn {
+    background: #d5f2e3;
+}
+
+.close-modal-btn:hover {
+    background: #ef233c;
+}
+
+.contacts {
+    background-color: #00b4d8;
+}
+
+.contacts:hover {
+    background-color: #f75c03;
+}
+
+.contacts-img, 
+.close-modal{
+    width: 50%;
+    margin: auto;
+    
+}
+
+.overlay, 
+.user-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   background-color: #000814d2;
+   z-index: 1;
+   transition: 0.5s;
+}
+
+
+.user-container {
+    text-align: center;
+    color: #ffa970;
+    padding: 2em;
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+    height: 470px;
+    transition: 0.3s;
+    background: #0c285e;
+    box-shadow: #00b4d8 2.4px 2.4px 3.2px;
+    border-radius: 7px 75px 0px 44px / 7px 75px 0px 46px;
+}
+
+.user-information, 
+.user-info {
+    text-shadow: 1px 1px 3px #000814;
+    letter-spacing: 1px;
+}
+
+.user-info {
+    font-size: 1.5rem;
+}
+
+.user-information {
+    font-size: 1rem;
+}
+
+
+.image-container {
+    text-align: center;
+}
+
+.my-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2.5px solid #ffee88;
+    
+}
+
+.works-place {
+   margin-top: 1.5em;
+   display: inline-flex;
+}
+
+.works-place i {
+    padding: 0 .5em;
+    font-size: 2em;
+    color: #18c2e4;
+}
+
+
+footer {
+    line-height: 1px;
+    text-align: center;
+    padding: 1em 0;
+    background: #0c285e;
+}
+
+footer h4 {
+    color: #d5f2e3;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: .835rem;
+    color: #5d6074;
+    
+}
+
+@media (min-width: 768px) {
+    main, .header {
+        width: 90%;
+        max-width: 800px;
+        margin:  0 auto;
+    }
+
+    .logo {
+        width: 52px;
+    }
+
+    .title, .subtitle {
+        font-size: 2.5rem;
+    }
+
+    .discription p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .hotel-pics {
+        border-radius: 5px;
+    }
+
+    .nav-modal {
+        display: block;
+    }
+
+    .close-menu, .menu {
+        display: none;
+    }
+
+    header {
+        border: none;
+        padding-left: 0;
+    }
+
+    .header, ul {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .header-container {
+        border-bottom: 2px solid #d4d4d4;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-container {
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        
+
+    }
+
+    li {
+       list-style: none;
+        margin-left: 1.5em;
+    }
+
+    li a {
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+
+    li:first-child {
+        border-bottom: 2px solid #000814;
+    }
+
+    .nav-modal {
+        margin: 0 0 0 auto;
+    }
+
+    .desktop-article {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+        grid-gap: 20px;
+        align-self: center;
+        padding-bottom: 4em;
+
+    }
+
+    .desktop-discription {
+        flex-direction: column;
+        
+
+    }
+
+    .desktop-discription button {
+        width:55%;
+        margin: 0 auto auto 0;
+        text-shadow: 0px 0px 1px #000000;
+        
+    }
+
+    .article {
+        border: 2.5px solid #c4c4c44e;
+        padding: 1em;
+        border-radius: 4px;
+
+    }
+
+    
+}

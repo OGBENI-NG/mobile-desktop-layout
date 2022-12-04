@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Responsive-hotel-app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header">
+            <header id="header">
+                <h1 class="subtitle">chechin <span>hotel</span></h1>
+                <div class="logo-img" >
+                    <img src="img/logo1.png" alt="logo" class="logo">
+                </div>
+            
+                <div class="menu">
+                    <i class="fa-solid fa-bars" id="open-nav"></i>
+                </div>
+            </header>
+            <div class="hidden nav-modal" id="nav-modal">
+                <nav class="nav-container">        
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contacts us</a></li>
+                    </ul>
+                    <div class="close-menu">
+                        <i class="fa-solid fa-circle-chevron-left" id="close-nav"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+    </div>
+   
+    
+    <main>
+        <section>
+            <h2 class="title" id="color-two">The best place for coding for prince and princess</h2>
+            <div class="image-containner">
+                <img src="img/generator.jpg" alt="hotel-picture" class="hotel-pics">
+                <h3 class="btn">Exclusive</h3>
+            </div>
+            <div class="discription">
+                <p>check place hotel if you looking place to code</p>
+                <button>book</button>
+            </div>
+        </section>
+
+        <!-- desktop airticle grid container-->
+        <div class="desktop-article">
+            <section class="article">
+                <img src="img/sky-garden.jpg" alt="hotel-pics" class="hotel-pics">
+                <div class="discription desktop-discription">
+                    <p>standed for computer programer, chill and enjoy free air</p>
+                    <button>book</button>
+                </div>
+            </section>
+            <section class="article">
+                <img src="img/1.jpg" alt="hotel-pics" class="hotel-pics">
+                <div class="discription desktop-discription">
+                    <p>stay here and enjoy free coding with big pad on your back</p>
+                    <button>book</button>
+                </div>
+            </section>
+            <section class="article">
+                <img src="img/sky-garden.jpg" alt="hotel-pics" class="hotel-pics">
+                <div class="discription desktop-discription">
+                    <p>standed for computer programer, chill and enjoy free air</p>
+                    <button>book</button>
+                </div>
+            </section>
+            <section class="article">
+                <img src="img/generator.jpg" alt="hotel-pics" class="hotel-pics">
+                <div class="discription desktop-discription">
+                    <p>standed for computer programer, chill and enjoy free air</p>
+                    <button>book</button>
+                </div>
+            </section>
+        </div>
+        <!-- contact information -->
+        <div class="contacts" id="contacts-img">
+            <img src="img/message.png" alt="" class="contacts-img" >
+        </div>
+
+        <div class="overlay hidden" id="modal">
+            <div class="user-container">
+                <div class="image-container">
+                    <img src="img/avatar.png" alt="my-picture" class="my-picture">
+                </div>
+                <h3 class="user-info">Adeolu Miracle</h3>
+                <p class="user-information">+2348146432387</p>
+                <p class="user-information">adeolumiracle@yahoo.com</p>
+                <p class="user-information">Frontend Developer</p>
+                <div class="works-place">
+                    <a href="https://github.com/OGBENI-NG/OGBENI-NG" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/MiracleAdeolu" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="linkedin.com/in/adeolu-miracle-998047259" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="close-modal-btn hidden" id="close-modal">
+                <img src="img/close.png" alt="close-btn" class="close-modal">
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <h4>powerby Adeolu</h4>
+        <p>copyright C2022</p>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
